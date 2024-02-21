@@ -1510,6 +1510,12 @@ h6 {
   }
 }
 
+@media (max-width: 79.9375em) {
+  .catalog-header__container {
+    padding: 0 !important;
+  }
+}
+
 /*
 .icon-menu {
 	display: none;
