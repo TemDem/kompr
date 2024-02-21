@@ -5835,32 +5835,56 @@
     const htmlBlock = document.documentElement;
     document.addEventListener("click", (function(e) {
         if (e.target.closest(".header__catalog .cross")) {
-            if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
-            if (catalogHeader && catalogHeader.classList.contains("_active")) catalogHeader.classList.remove("_active");
+            if (htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.remove("menu-open");
+                htmlBlock.classList.remove("lock");
+            }
+            if (catalogHeader && catalogHeader.classList.contains("_active")) {
+                catalogHeader.classList.remove("_active");
+                catalogHeader.classList.remove("lock");
+            }
         }
         if (!e.target.closest(".header__catalog")) if (e.target.closest("._catalog") && catalogHeader) if (catalogHeader.classList.contains("_active")) {
             catalogHeader.classList.remove("_active");
             if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
         } else {
             catalogHeader.classList.add("_active");
-            if (!htmlBlock.classList.contains("menu-open")) htmlBlock.classList.add("menu-open");
+            if (!htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.add("menu-open");
+                htmlBlock.classList.add("lock");
+            }
         } else if (catalogHeader.classList.contains("_active")) {
             console.log(124);
-            if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
+            if (htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.remove("menu-open");
+                htmlBlock.classList.remove("lock");
+            }
             catalogHeader.classList.remove("_active");
         }
         if (e.target.closest(".header__company .cross")) {
-            if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
+            if (htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.remove("menu-open");
+                htmlBlock.classList.remove("lock");
+            }
             if (companyHeader && companyHeader.classList.contains("_active")) companyHeader.classList.remove("_active");
         }
         if (!e.target.closest(".header__company")) if (e.target.closest("._company") && companyHeader) if (companyHeader.classList.contains("_active")) {
             catalogHeader.classList.remove("_active");
-            if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
+            if (htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.remove("menu-open");
+                htmlBlock.classList.remove("lock");
+            }
         } else {
             companyHeader.classList.add("_active");
-            if (!htmlBlock.classList.contains("menu-open")) htmlBlock.classList.add("menu-open");
+            if (!htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.add("menu-open");
+                htmlBlock.classList.add("lock");
+            }
         } else if (companyHeader.classList.contains("_active")) {
-            if (htmlBlock.classList.contains("menu-open")) htmlBlock.classList.remove("menu-open");
+            if (htmlBlock.classList.contains("menu-open")) {
+                htmlBlock.classList.remove("menu-open");
+                htmlBlock.classList.remove("lock");
+            }
             companyHeader.classList.remove("_active");
         }
     }));

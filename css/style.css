@@ -1318,7 +1318,7 @@ h6 {
     position: fixed;
     top: 0;
     left: 0;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
     max-width: 374px;
   }
@@ -1354,7 +1354,7 @@ h6 {
 }
 @media (max-width: 80em) {
   .catalog-header__body {
-    height: 100%;
+    min-height: 100%;
   }
 }
 @media (min-width: 80em) {
