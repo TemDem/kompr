@@ -1323,7 +1323,7 @@ h6 {
     max-width: 374px;
   }
   .catalog-header__container {
-    padding: 0;
+    padding: 0 !important;
   }
   .catalog-header::-webkit-scrollbar {
     width: 5px;
@@ -1343,7 +1343,7 @@ h6 {
   opacity: 1;
   visibility: visible;
 }
-@media (max-width: 80em) {
+@media (max-width: 79.9375em) {
   .catalog-header__container {
     height: 100%;
   }
@@ -1352,7 +1352,7 @@ h6 {
   padding: 1.875rem;
   background-color: #fff;
 }
-@media (max-width: 80em) {
+@media (max-width: 79.9375em) {
   .catalog-header__body {
     min-height: 100%;
   }
@@ -1399,7 +1399,7 @@ h6 {
   text-align: left;
   padding-bottom: 0.9375rem;
 }
-@media (max-width: 80em) {
+@media (max-width: 79.9375em) {
   .catalog-header__title {
     font-size: 1.25rem;
     line-height: 1.2;
