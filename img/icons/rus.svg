@@ -1,0 +1,16 @@
+<svg width="16.000000" height="16.000000" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip92_3971">
+			<rect id="emojione:flag-for-russia" width="16.000000" height="16.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="emojione:flag-for-russia" width="16.000000" height="16.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip92_3971)">
+		<path id="Vector" d="M7.96875 0.5C4.71875 0.5 1.94531 2.59998 0.921875 5.5L15.0703 5.5C14.0234 2.59998 11.25 0.5 7.96875 0.5Z" fill="#F9F9F9" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M7.96875 15.5C11.25 15.5 14.0234 13.4 15.0469 10.5L0.921875 10.5C1.94531 13.425 4.71875 15.5 7.96875 15.5Z" fill="#ED4C5C" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M0.921875 5.5C0.648438 6.27502 0.5 7.125 0.5 8C0.5 8.875 0.648438 9.72498 0.921875 10.5L15.0781 10.5C15.3516 9.72498 15.5 8.875 15.5 8C15.5 7.125 15.3516 6.27502 15.0781 5.5L0.921875 5.5Z" fill="#428BC1" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>
